@@ -25,6 +25,7 @@ function getCurrentWeather(city) {
         currTemp.text(temp);
         currHum.text(response.main.humidity);
         currWind.text(response.wind.speed);
+
         var lat = response.coord.lat;
         var lon = response.coord.lon;
         var uvURL="https://api.openweathermap.org/data/2.5/uvi?appid="+ key + "&lat=" + lat + "&lon="+lon;
