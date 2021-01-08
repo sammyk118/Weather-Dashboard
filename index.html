@@ -22,13 +22,12 @@
                 <div class="card-body ">
                     <h5 class="card-title">Search for a City:</h5>
                     <div class="mb-3">
-                        <input class="form-control me-2" type="search" placeholder="Search" id="search-button"
+                        <input class="form-control me-2" type="search" placeholder="Search" id="search-city"
                             aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-outline-success" type="submit" id="search-button">Search</button>
                     </div>
                     <form id="history"></form>
                 </div>
-
             </div>
 
             <div class="col-8">
@@ -36,28 +35,27 @@
                     <div class="col-12 border border-dark m-3 rounded">
                         <div class="row">
                             <div class="col-12">
-                                <span id="city-name" class="city-name align-middle"></span>
-                                <img id="current-pic" src="placeholder" alt="">
+                                <span id="city-name" class="align-middle"></span>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12">
-                                <p id="temperature"></p>
+                                <p>Temperature: <span id="temperature"></span></p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12">
-                                <p id="humidity"></p>
+                                <p>Humidity: <span id="humidity"></span></p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12">
-                                <p id="wind-speed"></p>
+                                <p>Wind Speed: <span id="wind-speed"></span></p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12 d-flex">
-                                <p id="UV-index"></p>
+                                <p>UV Index: <span id="uv-index"></span></p>
                             </div>
                         </div>
                     </div>
@@ -73,9 +71,7 @@
 
 
 
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
     <script src="assets/script.js"></script>
 </body>
 
